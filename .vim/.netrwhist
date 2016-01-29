@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/zhejiang/desktop/yangtze/ubuntu'
+let g:netrw_dirhist_2='/home/zhejiang/douban/douban/spiders'
+let g:netrw_dirhist_3='/home/zhejiang/douban'
+let g:netrw_dirhist_4='/home/zhejiang/douban/douban/spiders'
+let g:netrw_dirhist_5='/home/zhejiang/yangtze736.github.io/_posts/work'
+let g:netrw_dirhist_6='/home/zhejiang/yangtze736.github.io/_posts/tech'
