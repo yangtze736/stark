@@ -2,6 +2,18 @@
 :nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 :inoremap jk <esc>
 
+:nnoremap <leader>ss :cs find s <C-R>=expand("<cword>")<CR><CR>
+:nnoremap <leader>sc :cs find c <C-R>=expand("<cword>")<CR><CR>
+:nnoremap <leader>se :cs find e <C-R>=expand("<cword>")<CR><CR>
+
+"映射全选+复制 ctrl+a
+:map <C-A> ggVGY
+:map! <C-A> <Esc>ggVGY
+:map <F11> :so badapple.vim<CR>
+:map <F12> gg=G
+"去空行
+:nnoremap <F2> :g/^\s*$/d<CR>
+
 ":inoremap <esc> <nop>
 ":inoremap <left> <nop>
 ":inoremap <right> <nop>
